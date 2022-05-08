@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Palavras Cruzadas</h1>
+    <br>
+    <div id="CPU" class="cpu"> 1.
+        <div id="div_cpu-p" class="box cpu_p">P</div>
+        <div id="div_cpu-r" class="box cpu_r">R</div>
+        <div id="div_cpu-o" class="box cpu_o">O</div>
+        <div id="div_cpu-c" class="box cpu_c">C</div>
+        <div id="div_cpu-e" class="box cpu_e">E</div>
+        <div id="div_cpu-s" class="box cpu_s">S</div>
+        <div id="div_cpu-s" class="box cpu_s">S</div>
+        <div id="div_cpu-a" class="box cpu_a">A</div>
+        <div id="div_cpu-d" class="box cpu_d">D</div>
+        <div id="div_cpu-o" class="box cpu_o">O</div>
+        <div id="div_cpu-r" class="box cpu_r">R</div>
+    </div>
+    <div id="ULA" class="ula"> 2.
+        <div id="div_ula_c" class="box ula_c">C</div>
+        <div id="div_ula_i" class="box ula_i">I</div>
+        <div id="div_ula_r" class="box ula_r">R</div>
+        <div id="div_ula_c" class="box ula_c">C</div>
+        <div id="div_ula_u" class="box ula_u">U</div>
+        <div id="div_ula_i" class="box ula_i">I</div>
+        <div id="div_ula_t" class="box ula_t">T</div>
+        <div id="div_ula_o" class="box ula_o">O</div>
+        <div class="espaco"></div>
+        <div id="div_ula-d" class="box ula_d">D</div>
+        <div id="div_ula-i" class="box ula_i">I</div>
+        <div id="div_ula-g" class="box ula_g">G</div>
+        <div id="div_ula-i" class="box ula_i">I</div>
+        <div id="div_ula-t" class="box ula_t">T</div>
+        <div id="div_ula-a" class="box ula_a">A</div>
+        <div id="div_ula-l" class="box ula_l">L</div>
+    </div>
+    <div id="REGISTRADOR" class="registrador"> 3.
+        <div id="div_reg_a" class="box reg_a">A</div>
+        <div id="div_reg_r" class="box reg_r">R</div>
+        <div id="div_reg_m" class="box reg_m">M</div>
+        <div id="div_reg_a" class="box reg_a">A</div>
+        <div id="div_reg_z" class="box reg_z">Z</div>
+        <div id="div_reg_e" class="box reg_e">E</div>
+        <div id="div_reg_n" class="box reg_n">N</div>
+        <div id="div_reg_a" class="box reg_s">A</div>
+        <div id="div_reg-m" class="box reg_m">M</div>
+        <div id="div_reg-e" class="box reg_e">E</div>
+        <div id="div_reg-n" class="box reg_n">N</div>
+        <div id="div_reg-t" class="box reg_t">T</div>
+        <div id="div_reg-o" class="box reg_o">O</div>
+    </div>
+
+    <div id="RAM_1" class="ram_1"> 4.
+        <div id="div_ram_1_v" class="box ram_1_v">V</div>
+        <div id="div_ram_1_o" class="box ram_1_o">O</div>
+        <div id="div_ram_1_l" class="box ram_1_l">L</div>
+        <div id="div_ram_1_a" class="box ram_1_a">Á</div>
+        <div id="div_ram_1_t" class="box ram_1_t">T</div>
+        <div id="div_ram_1_i" class="box ram_1_i">I</div>
+        <div id="div_ram_1_l" class="box ram_1_l">L</div>
+    </div>
+
+    <div id="RAM_2" class="ram_2"> 5.
+        <div id="div_ram_2_r" class="box ram_2_r">R</div>
+        <div id="div_ram_2_e" class="box ram_2_e">E</div>
+        <div id="div_ram_2_f" class="box ram_2_f">F</div>
+        <div id="div_ram_2_o" class="box ram_2_o">O</div>
+        <div id="div_ram_2_r" class="box ram_2_r">R</div>
+        <div id="div_ram_2_m" class="box ram_2_m">M</div>
+        <div id="div_ram_2_u" class="box ram_2_u">U</div>
+        <div id="div_ram_2_l" class="box ram_2_l">L</div>
+        <div id="div_ram_2_a" class="box ram_2_a">A</div>
+    </div>
+   
+    <div id="ROM_1" class="rom_1"> 6.
+        <div id="div_rom_l" class="box rom_l">L</div>
+        <div id="div_rom_e" class="box rom_e">E</div>
+        <div id="div_rom_i" class="box rom_i">I</div>
+        <div id="div_rom_t" class="box rom_t">T</div>
+        <div id="div_rom_u" class="box rom_u">U</div>
+        <div id="div_rom_r" class="box rom_r">R</div>
+        <div id="div_rom_a" class="box rom_a">A</div>
+        <div class="espaco"></div>
+        <div id="div_rom-d" class="box rom_d">D</div>
+        <div id="div_rom-e" class="box rom_e">E</div>
+        <div class="espaco"></div>
+        <div id="div_rom-d" class="box rom_d">D</div>
+        <div id="div_rom-a" class="box rom_a">A</div>
+        <div id="div_rom-d" class="box rom_d">D</div>
+        <div id="div_rom-o" class="box rom_o">O</div>
+        <div id="div_rom-s" class="box rom_s">S</div>
+    </div>
+    <div id="ROM_2" class="rom_2"> 7.
+        <div id="div_rom_2_p" class="box rom_2_p">p</div>
+        <div id="div_rom_2_e" class="box rom_2_e">e</div>
+        <div id="div_rom_2_r" class="box rom_2_r">r</div>
+        <div id="div_rom_2_m" class="box rom_2_m">m</div>
+        <div id="div_rom_2_a" class="box rom_2_a">a</div>
+        <div id="div_rom_2_n" class="box rom_2_n">n</div>
+        <div id="div_rom_2_e" class="box rom_2_e">e</div>
+        <div id="div_rom_2_n" class="box rom_2_n">n</div>
+        <div id="div_rom_2_t" class="box rom_2_t">t</div>
+        <div id="div_rom_2_e" class="box rom_2_e">e</div>
+    </div>
+    <div id="EPRON_1" class="epron_1"> 8.
+        <div id="div_epron_1_l" class="box epron_1_l">l</div>
+        <div id="div_epron_1_e" class="box epron_1_e">e</div>
+        <div id="div_epron_1_i" class="box epron_1_i">i</div>
+        <div id="div_epron_1_t" class="box epron_1_t">t</div>
+        <div id="div_epron_1_u" class="box epron_1_u">u</div>
+        <div id="div_epron_1_r" class="box epron_1_r">r</div>
+        <div id="div_epron_1_a" class="box epron_1_a">a</div>
+    </div>
+    <div id="EPRON_2" class="epron_2"> 9.
+        <div id="div_epron_2_r" class="box epron_2_r">r</div>
+        <div id="div_epron_2_e" class="box epron_2_e">e</div>
+        <div id="div_epron_2_g" class="box epron_2_g">g</div>
+        <div id="div_epron_2_r" class="box epron_2_r">r</div>
+        <div id="div_epron_2_a" class="box epron_2_a">a</div>
+        <div id="div_epron_2_v" class="box epron_2_v">v</div>
+        <div id="div_epron_2_a" class="box epron_2_a">a</div>
+        <div id="div_epron_2_r" class="box epron_2_r">r</div>
+        <div class="espaco"></div>
+        <div id="div_epron_2_d" class="box epron_2_d">d</div>
+        <div id="div_epron_2_a" class="box epron_2_a">a</div>
+        <div id="div_epron_2_d" class="box epron_2_d">d</div>
+        <div id="div_epron_2_o" class="box epron_2_o">o</div>
+        <div id="div_epron_2_s" class="box epron_2_s">s</div>
+    </div>
+    <div id="FLASH_1" class="flash_1"> 10.
+        <div id="div_flash_1_p" class="box flash_1_p">p</div>
+        <div id="div_flash_1_e" class="box flash_1_e">e</div>
+        <div id="div_flash_1_r" class="box flash_1_r">r</div>
+        <div id="div_flash_1_m" class="box flash_1_m">m</div>
+        <div id="div_flash_1_a" class="box flash_1_a">a</div>
+        <div id="div_flash_1_n" class="box flash_1_n">n</div>
+        <div id="div_flash_1_e" class="box flash_1_e">e</div>
+        <div id="div_flash_1_n" class="box flash_1_n">n</div>
+        <div id="div_flash_1_t" class="box flash_1_t">t</div>
+        <div id="div_flash_1_e" class="box flash_1_e">e</div>
+    </div>
+    <div id="FLASH_2" class="flash_2"> 11.
+        <div id="div_flash_2_p" class="box flash_2_p">p</div>
+        <div id="div_flash_2_o" class="box flash_2_o">o</div>
+        <div id="div_flash_2_r" class="box flash_2_r">r</div>
+        <div id="div_flash_2_t" class="box flash_2_t">t</div>
+        <div id="div_flash_2_a" class="box flash_2_a">á</div>
+        <div id="div_flash_2_t" class="box flash_2_t">t</div>
+        <div id="div_flash_2_i" class="box flash_2_i">i</div>
+        <div id="div_flash_2_l" class="box flash_2_l">l</div>
+    </div>
+    <div id="ROM_2" class="rom_2"> 12.
+        <div id="div_rom_2_n" class="box rom_2_n">n</div>
+        <div id="div_rom_2_a" class="box rom_2_a">ã</div>
+        <div id="div_rom_2_o" class="box rom_2_o">o</div>
+        <div class="espaco"></div>
+        <div id="div_rom_2_v" class="box rom_2_v">v</div>
+        <div id="div_rom_2_o" class="box rom_2_o">o</div>
+        <div id="div_rom_2_l" class="box rom_2_l">l</div>
+        <div id="div_rom_2_a" class="box rom_2_a">á</div>
+        <div id="div_rom_2_t" class="box rom_2_t">t</div>
+        <div id="div_rom_2_i" class="box rom_2_i">i</div>
+        <div id="div_rom_2_l" class="box rom_2_l">l</div>
+    </div>
+    <div id="MASS_1" class="mass_1"> 13.
+        <div id="div_mass_1_m" class="box mass_1_m">m</div>
+        <div id="div_mass_1_e" class="box mass_1_e">e</div>
+        <div id="div_mass_1_m" class="box mass_1_m">m</div>
+        <div id="div_mass_1_o" class="box mass_1_o">o</div>
+        <div id="div_mass_1_r" class="box mass_1_r">r</div>
+        <div id="div_mass_1_i" class="box mass_1_i">i</div>
+        <div id="div_mass_1_a" class="box mass_1_a">a</div>
+        <div class="espaco"></div>
+        <div id="div_mass_1-s" class="box mass_1_s">s</div>
+        <div id="div_mass_1-e" class="box mass_1_e">e</div>
+        <div id="div_mass_1-c" class="box mass_1_c">c</div>
+        <div id="div_mass_1-u" class="box mass_1_u">u</div>
+        <div id="div_mass_1-n" class="box mass_1_n">n</div>
+        <div id="div_mass_1-d" class="box mass_1_d">d</div>
+        <div id="div_mass_1-a" class="box mass_1_a">a</div>
+        <div id="div_mass_1-r" class="box mass_1_r">r</div>
+        <div id="div_mass_1-i" class="box mass_1_i">i</div>
+        <div id="div_mass_1-a" class="box mass_1_a">a</div>
+    </div>
+    <div id="MASS_2" class="mass_2"> 14.
+        <div id="div_mass_2_a" class="box mass_2_a">a</div>
+        <div id="div_mass_2_u" class="box mass_2_u">u</div>
+        <div id="div_mass_2_x" class="box mass_2_x">x</div>
+        <div id="div_mass_2_i" class="box mass_2_i">i</div>
+        <div id="div_mass_2_l" class="box mass_2_l">l</div>
+        <div id="div_mass_2_i" class="box mass_2_i">i</div>
+        <div id="div_mass_2_a" class="box mass_2_a">a</div>
+        <div id="div_mass_2-r" class="box mass_2_r">r</div>
+    </div>
+    <div id="DMA" class="dma"> 15.
+        <div id="div_dma_a" class="box dma_a">a</div>
+        <div id="div_dma_c" class="box dma_e">c</div>
+        <div id="div_dma_e" class="box dma_e">e</div>
+        <div id="div_dma_s" class="box dma_s">s</div>
+        <div id="div_dma_s" class="box dma_s">s</div>
+        <div id="div_dma_o" class="box dma_o">o</div>
+        <div class="espaco"></div>
+        <div id="div_dma_d" class="box dma_d">d</div>
+        <div id="div_dma-i" class="box dma_i">i</div>
+        <div id="div_dma-r" class="box dma_r">r</div>
+        <div id="div_dma-e" class="box dma_e">e</div>
+        <div id="div_dma-t" class="box dma_t">t</div>
+        <div id="div_dma-o" class="box dma_o">o</div>
+    </div>
+    <div id="ADRESS" class="adress"> 16.
+        <div id="div_adress_e" class="box adress_e">e</div>
+        <div id="div_adress_n" class="box adress_n">n</div>
+        <div id="div_adress_d" class="box adress_d">d</div>
+        <div id="div_adress_e" class="box adress_e">e</div>
+        <div id="div_adress_r" class="box adress_r">r</div>
+        <div id="div_adress_e" class="box adress_e">e</div>
+        <div id="div_adress_c" class="box adress_c">ç</div>
+        <div id="div_adress-o" class="box adress_o">o</div>
+    </div>
+    <div id="DATA" class="data"> 17.
+        <div id="div_data_t" class="box data_t">t</div>
+        <div id="div_data_r" class="box data_r">r</div>
+        <div id="div_data_a" class="box data_a">a</div>
+        <div id="div_data_n" class="box data_n">n</div>
+        <div id="div_data_s" class="box data_s">s</div>
+        <div id="div_data_p" class="box data_p">p</div>
+        <div id="div_data_o" class="box data_o">o</div>
+        <div id="div_data-r" class="box data_r">r</div>
+        <div id="div_data-t" class="box data_t">t</div>
+        <div id="div_data-e" class="box data_e">e</div>
+    </div>
+    <div id="I5" class="i5"> 17.
+        <div id="div_i5_q" class="box i5_q">q</div>
+        <div id="div_i5_u" class="box i5_u">u</div>
+        <div id="div_i5_a" class="box i5_a">a</div>
+        <div id="div_i5_t" class="box i5_t">t</div>
+        <div id="div_i5_r" class="box i5_r">r</div>
+        <div id="div_i5_o" class="box i5_o">o</div>
+        <div class="espaco"></div>
+        <div id="div_i5_t" class="box i5_t">t</div>
+        <div id="div_i5-r" class="box i5_r">r</div>
+        <div id="div_i5-e" class="box i5_e">e</div>
+        <div id="div_i5-a" class="box i5_a">a</div>
+        <div id="div_i5-d" class="box i5_d">d</div>
+        <div id="div_i5-s" class="box i5_s">s</div>
+    </div>
+    <div id="I7" class="i7"> 18.
+        <div id="div_i5_o" class="box i5_o">o</div>
+        <div id="div_i5_i" class="box i5_i">i</div>
+        <div id="div_i5_t" class="box i5_t">t</div>
+        <div id="div_i5_o" class="box i5_o">o</div>
+        <div class="espaco"></div>
+        <div id="div_i5_t" class="box i5_t">t</div>
+        <div id="div_i5-r" class="box i5_r">r</div>
+        <div id="div_i5-e" class="box i5_e">e</div>
+        <div id="div_i5-a" class="box i5_a">a</div>
+        <div id="div_i5-d" class="box i5_d">d</div>
+        <div id="div_i5-s" class="box i5_s">s</div>
+    </div>
+    <div id="DUAL" class="dual"> 19.
+        <div id="div_dual_h" class="box dual_h">h</div>
+        <div id="div_dual_y" class="box dual_y">y</div>
+        <div id="div_dual_p" class="box dual_p">p</div>
+        <div id="div_dual_e" class="box dual_e">e</div>
+        <div id="div_dual_r" class="box dual_r">r</div>
+        <div class="espaco"></div>
+        <div id="div_dual_t" class="box dual_t">t</div>
+        <div id="div_dual-r" class="box dual_r">r</div>
+        <div id="div_dual-e" class="box dual_e">e</div>
+        <div id="div_dual-a" class="box dual_a">a</div>
+        <div id="div_dual-d" class="box dual_d">d</div>
+    </div>
+    <div id="QUAD" class="quad"> 20.
+        <div id="div_quad_m" class="box quad_m">m</div>
+        <div id="div_quad_u" class="box quad_u">u</div>
+        <div id="div_quad_l" class="box quad_l">l</div>
+        <div id="div_quad_t" class="box quad_t">t</div>
+        <div id="div_quad_i" class="box quad_i">i</div>
+        <div id="div_quad-n" class="box quad_n">n</div>
+        <div id="div_quad-u" class="box quad_u">ú</div>
+        <div id="div_quad-c" class="box quad_c">c</div>
+        <div id="div_quad-l" class="box quad_l">l</div>
+        <div id="div_quad-e" class="box quad_e">e</div>
+        <div id="div_quad-o" class="box quad_o">o</div>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+}
+.espaco{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+    background-color: black;
+}
+/* CPU */
+.cpu{
+    display: flex;
+    font-size: 30px;
+}
+/* ULA */
+.ula{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+/* REGISTRADORES */
+.registrador{
+    display: flex;
+    font-size: 30px;
+}
+
+/* RAM */
+.ram_1{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+.ram_2{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+/* ROM */
+.rom_1{
+    display: flex;
+    font-size: 30px;
+}
+.rom_2{
+    display: flex;
+    font-size: 30px;
+}
+/* EPRON */
+.epron_1{
+    display: flex;
+    font-size: 30px;
+}
+.epron_2{
+    display: flex;
+    font-size: 30px;
+}
+/* FLASH */
+.flash_1{
+    display: flex;
+    font-size: 30px;
+}
+.flash_2{
+    display: flex;
+    font-size: 30px;
+}
+/* MASS MEMORY */
+.mass_1{
+    display: flex;
+    font-size: 30px;
+}
+.mass_2{
+    display: flex;
+    font-size: 30px;
+}
+
+/* DMA */
+.dma{
+    display: flex;
+    font-size: 30px;
+}
+
+/* ADRESS_BUS */
+.adress{
+        display: flex;
+        font-size: 30px;
+}
+
+/* DATA-BUS */
+.data{
+    display: flex;
+    font-size: 30px;
+}
+
+/* PROCESSADOR i5 */
+.i5{
+    display: flex;
+    font-size: 30px;
+}
+
+/* PROCESSADOR i7 */
+.i7{
+    display: flex;
+    font-size: 30px;
+}
+
+/* DUAL CORE */
+.dual{
+    display: flex;
+    font-size: 30px;
+}
+
+/* QUAD CORE */
+.quad{
+    display: flex;
+    font-size: 30px;
+}
+

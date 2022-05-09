@@ -9,24 +9,32 @@ body {
     width: 100%;
 }
 
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
 .cruzadinha {
     display: grid;
-    grid-template-columns: repeat(32, 35px);
-    grid-template-rows: repeat(33, 35px);
+    grid-template-columns: repeat(32, 25px);
+    grid-template-rows: repeat(33, 25px);
     margin: 50px auto;
     width: fit-content;
+    border: 2px solid black;
+    padding: 10px;
 }
+
 
 .espaço{
     background-color: white;
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
     border: 1px solid black;
 }
 
 .quadrados {
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
     border: 1px solid #000;
     text-align: center;
     outline: none;
@@ -34,16 +42,31 @@ body {
     font-size: 20px;
 }
 
-
 .numero{
     display: flex;
     border: none;
-    width: 35px;
-    height: 35px; 
+    width: 25px;
+    height: 25px; 
     align-items: center;
     justify-content: center;
     font: 20px;
     font-weight: bold;
+}
+
+.direita{
+    margin: 50px auto;
+    padding-left: 50px;
+}
+
+button{
+    margin-left: 100px;
+    padding: 20px;
+}
+
+input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
 }
 
 .CpuLetra{
@@ -64,75 +87,74 @@ body {
 
 .div_regis{
     display: flex;
-    grid-column: 2/15;
+    grid-column: 1/15;
     grid-row: 8;
 }
 
 .div_ram{
     display: flex;
-    grid-column: 3/16;
+    grid-column: 2/16;
     grid-row: 12;
 }
 
 .div_ram_tipo{
     grid-column: 16;
-    grid-row: 13/19;
+    grid-row: 12/19;
 }
 
 .div_rom{
     display: flex;
-    grid-column: 23/33;
+    grid-column: 22/33;
     grid-row: 23;
 }
 
 .div_rom_tipo{
     display: flex;
-    grid-column: 4/12;
+    grid-column: 3/12;
     grid-row: 17;
 }
 
 .div_epron{
     grid-column: 3;
-    grid-row: 3;
+    grid-row: 2/13;
 }
 
 .div_epron_tipo{
     grid-column: 30;
-    grid-row: 23/33;
+    grid-row: 22/32;
 }
 
 .div_flash{
     display: flex;
-    grid-column: 9/21;
+    grid-column: 8/21;
     grid-row: 11;
 }
 
 .div_flash_tipo{
     display: flex;
-    grid-column: 3/13;
+    grid-column: 2/13;
     grid-row: 24;
 }
 
 .div_AB{
     grid-column: 12;
-    grid-row: 21/29;
+    grid-row: 20/29;
 }
 
 .div_DB{
     display: flex;
-    grid-column: 16/26;
+    grid-column: 15/26;
     grid-row: 17;
 }
 
 .div_massa{
-    display: flex;
-    grid-column: 6/13;
-    grid-row: 28;
+    grid-column: 28;
+    grid-row: 16/26;
 }
 
 .div_massa_tipo{
     display: flex;
-    grid-column: 3/11;
+    grid-column: 2/11;
     grid-row: 19;
 }
 .div_dma{
@@ -142,26 +164,26 @@ body {
 
 .div_cs{
     grid-column: 14;
-    grid-row: 10/21;
+    grid-row: 9/21;
 }
 
 .div_i5{
     grid-column: 10;
-    grid-row: 15/20;
+    grid-row: 13/20;
 }
 
 .div_i7{
     display: flex;
-    grid-column: 7/11;
-    grid-row: 20;
+    grid-column: 6/11;
+    grid-row: 21;
 }
 .div_dual{
     grid-column: 13;
-    grid-row: 2/13;
+    grid-row: 1/13;
 }
 
 .div_quad{
     grid-column: 26;
-    grid-row: 23/33;
+    grid-row: 22/32;
 }
 

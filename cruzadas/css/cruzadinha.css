@@ -12,6 +12,7 @@ body {
 .container{
     display: flex;
     justify-content: space-between;
+    background-color: #4771a5;
 }
 
 .cruzadinha {
@@ -22,6 +23,8 @@ body {
     width: fit-content;
     border: 2px solid black;
     padding: 10px;
+    background-color: white;
+    margin-left: 5vw;
 }
 
 
@@ -56,17 +59,21 @@ body {
 .direita{
     margin: 50px auto;
     padding-left: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 button{
-    margin-left: 100px;
     padding: 20px;
+    font-size: 15px;
 }
 
 input{
     background: transparent;
     border: none;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid white;
 }
 
 .div_cpu{

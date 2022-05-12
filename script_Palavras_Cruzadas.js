@@ -52,7 +52,7 @@ function confirmar() {
       circ.style.display = "block";
     }
   }
-  if (res6 == 'permanente') {
+  if (res6 == 'permanente') { 
     for (let contador = 1; contador <= 10; contador++) {
       var perma = document.querySelector(`#permanente${contador}`)
       perma.style.display = "block";
@@ -82,14 +82,14 @@ function confirmar() {
       convenc.style.display = "block";
     }
   }
-  if (res11 == 'permanente') {
+  if (res11 == 'constante') {
     for (let contador = 1; contador <= 10; contador++) {
       var permane = document.querySelector(`#permanente${contador}`)
       permane.style.display = "block";
     }
   }
   if (res12 == 'armazenar') {
-    for (let contador = 1; contador <= 10; contador++) {
+    for (let contador = 1; contador <= 9; contador++) {
       var armazena = document.querySelector(`#armazenar${contador}`)
       armazena.style.display = "block";
     }
@@ -99,7 +99,6 @@ function confirmar() {
       var auxi = document.querySelector(`#auxiliar${contador}`)
       auxi.style.display = "block";
     }
-
   }
   if (res14 == 'acesso direto') {
     for (let contador = 1; contador <= 12; contador++) {

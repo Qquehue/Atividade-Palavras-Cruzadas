@@ -1,34 +1,9 @@
-#CpuLetra1{
+.CpuLetra{
     display: none;
 }
-#CpuLetra2{
-    display: none;
-    text-decoration: line-through;
-}
-#CpuLetra3{
+.circuitodigital{
     display: none;
 }
-#CpuLetra4{
-    display: none;
-}
-#CpuLetra5{
-    display: none;
-}
-#CpuLetra6{
-    display: none;
-}
-#CpuLetra7{
-    display: none;
-}
-#CpuLetra8{
-    display: none;
-}
-#CpuLetra9{
-    display: none;
-}
-#CpuLetra10{
-    display: none;
-}
-#CpuLetra11{
+.armazenamento{
     display: none;
 }

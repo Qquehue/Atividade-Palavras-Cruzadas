@@ -69,10 +69,6 @@ input{
     border-bottom: 1px solid #000000;
 }
 
-.CpuLetra{
-    display: none;
-}
-
 .div_cpu{
     grid-column: 25;
     grid-row: 12/23;

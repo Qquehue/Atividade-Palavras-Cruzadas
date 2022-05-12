@@ -74,6 +74,8 @@ input{
     background: transparent;
     border: none;
     border-bottom: 1px solid white;
+    color: white;
+    font-weight: bold;
 }
 
 .div_cpu{

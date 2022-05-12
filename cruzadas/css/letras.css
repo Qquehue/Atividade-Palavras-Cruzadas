@@ -7,3 +7,57 @@
 .armazenamento{
     display: none;
 }
+.reformular{
+    display: none;
+}
+.volatil{
+    display: none;
+}
+.permanente{
+    display: none;
+}
+.leitura{
+    display: none;
+}
+.reescrever{
+    display: none;
+}
+.naovolatil{
+    display: none;
+}
+.convencional{
+    display: none;
+}
+.permanente{
+    display: none;
+}
+.armazenar{
+    display: none;
+}
+.auxiliar{
+    display: none;
+}
+.acessodireto{
+    display: none;
+}
+.intermediador{
+    display: none;
+}
+.endereco{
+    display: none;
+}
+.transporte{
+    display: none;
+}
+.quatro{
+    display: none;
+}
+.oitro{
+    display: none;
+}
+.hyperthread{
+    display: none;
+}
+.multinucleo{
+    display: none;
+}

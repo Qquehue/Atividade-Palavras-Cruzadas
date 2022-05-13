@@ -94,9 +94,9 @@ function confirmar() {
   }
   if (res11 == 'constante') {
     pont ++;
-    for (let contador = 1; contador <= 10; contador++) {
-      var permane = document.querySelector(`#permanente${contador}`)
-      permane.style.display = "block";
+    for (let contador = 1; contador <= 9; contador++) {
+      var contant = document.querySelector(`#constante${contador}`)
+      contant.style.display = "block";
     }
   }
   if (res12 == 'armazenar') {

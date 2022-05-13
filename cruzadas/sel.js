@@ -354,6 +354,7 @@ function mostrar(){
         span_p11.style.display = 'none';
         span_p12.style.display = 'none';
         span_p13.style.display = 'none';
+        span_p14.style.display = 'none';
         span_p16.style.display = 'none';
         span_p17.style.display = 'none';
         span_p18.style.display = 'none';
@@ -378,6 +379,7 @@ function mostrar(){
         span_p11.style.display = 'none';
         span_p12.style.display = 'none';
         span_p13.style.display = 'none';
+        span_p14.style.display = 'none';
         span_p15.style.display = 'none';
         span_p17.style.display = 'none';
         span_p18.style.display = 'none';
@@ -401,6 +403,7 @@ function mostrar(){
         span_p11.style.display = 'none';
         span_p12.style.display = 'none';
         span_p13.style.display = 'none';
+        span_p14.style.display = 'none';
         span_p15.style.display = 'none';
         span_p16.style.display = 'none';
         span_p18.style.display = 'none';
@@ -424,6 +427,7 @@ function mostrar(){
         span_p11.style.display = 'none';
         span_p12.style.display = 'none';
         span_p13.style.display = 'none';
+        span_p14.style.display = 'none';
         span_p15.style.display = 'none';
         span_p16.style.display = 'none';
         span_p17.style.display = 'none';
@@ -447,6 +451,7 @@ function mostrar(){
         span_p11.style.display = 'none';
         span_p12.style.display = 'none';
         span_p13.style.display = 'none';
+        span_p14.style.display = 'none';
         span_p15.style.display = 'none';
         span_p16.style.display = 'none';
         span_p17.style.display = 'none';
@@ -469,6 +474,7 @@ function mostrar(){
         span_p11.style.display = 'none';
         span_p12.style.display = 'none';
         span_p13.style.display = 'none';
+        span_p14.style.display = 'none';
         span_p15.style.display = 'none';
         span_p16.style.display = 'none';
         span_p17.style.display = 'none';
@@ -492,6 +498,7 @@ function mostrar(){
         span_p11.style.display = 'none';
         span_p12.style.display = 'none';
         span_p13.style.display = 'none';
+        span_p14.style.display = 'none';
         span_p15.style.display = 'none';
         span_p16.style.display = 'none';
         span_p17.style.display = 'none';

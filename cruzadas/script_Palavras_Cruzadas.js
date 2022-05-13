@@ -74,7 +74,7 @@ function confirmar() {
   if (res8 == 'reescrever') {
     pont ++;
     for (let contador = 1; contador <= 10; contador++) {
-      var reesc = document.querySelector(`#resscrever${contador}`)
+      var reesc = document.querySelector(`#reescrever${contador}`)
       reesc.style.display = "block";
     }
   }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
 <head>
     <meta charset="UTF-8">
@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/cruzadinha.css">
     <link rel="stylesheet" href="css/letras.css">
     <script src="sel.js"></script>
+    <script src="script_Palavras_Cruzadas.js"></script>
 </head>
 <body>
     <div class="container">
@@ -359,8 +360,9 @@
      
             <span id="span_p21"  style="display: none;">21.  Diferentemente de um processador Dual Core, o Quad Core tem mais de um núcleo físico, portanto ele é: <input type="text" id="ipt_r21"></span>
             <br><br>
-            <button onclick="confirmar()">Confirmar</button>
+          <div class="botao"> <button class="btn" onclick="confirmar()">Confirmar</button> <button class="btn" onclick="encerrar()">Encerrar</button> <br></div>
             </div>
+           
         </div>
     </div>
 
@@ -368,7 +370,7 @@
 </body>
 
 </html>
-<script src="../script_Palavras_Cruzadas.js"></script>
+
 
 <!-- STRIKE
 div_teste.style.textDecoration = "line-through"; -->

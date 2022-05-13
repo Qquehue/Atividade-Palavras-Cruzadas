@@ -63,11 +63,16 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
-
-button{
-    padding: 20px;
+.botao{
+    display: flex;
+    
+}
+.btn{
+    padding: 10px;
     font-size: 15px;
+    margin-left: 10px;
 }
 
 input{

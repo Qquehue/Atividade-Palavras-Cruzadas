@@ -23,91 +23,130 @@ function confirmar() {
   var res21 = ipt_r21.value;
   
   if (res1 == "processador") {
-    pont ++;
+    if (pnt1 == true) {
+      pont ++;
+      pnt1 = false;
+    }
     for (let contador = 1; contador <= 11; contador++) {
       var proc = document.querySelector(`#cpu${contador}`)
       proc.style.display = "block";
     }
   }
   if (res2 == "circuito digital"){
-    pont ++;
+    if (pnt2 == true) {
+      pont ++;
+      pnt2 = false;
+    }
     for (let contador = 1; contador <= 15; contador++) {
       var circ = document.querySelector(`#circuito_digital${contador}`)
       circ.style.display = "block";
     }
   }
   if (res3 == "armazenamento") {
-    pont ++;
+    if (pnt3 == true) {
+      pont ++;
+      ptn3 = false;
+    }
     for (let contador = 1; contador <= 13; contador++) {
       var armaz = document.querySelector(`#armazena${contador}`)
       armaz.style.display = "block";
     }
   }
   if (res4 == 'reformular') {
-    pont ++;
+    if (pnt4 == true) {
+      pont ++;
+      ptn4 = false;
+    }
     for (let contador = 1; contador <= 10; contador++) {
       var ref = document.querySelector(`#refor${contador}`)
       ref.style.display = "block";
     }
   }
   if (res5 == 'volatil' || res5 == 'volátil') {
-    pont ++;
+    if (pnt5 == true) {
+      pont ++;
+      ptn5 = false;
+    }
     for (let contador = 1; contador <= 7; contador++) {
       var circ = document.querySelector(`#volatil${contador}`)
       circ.style.display = "block";
     }
   }
   if (res6 == 'permanente') { 
-    pont ++;
+    if (pnt6 == true) {
+      pont ++;
+      ptn6 = false;
+    }
     for (let contador = 1; contador <= 10; contador++) {
       var perma = document.querySelector(`#permanente${contador}`)
       perma.style.display = "block";
     }
   }
   if (res7 == 'leitura') {
-    pont ++;
+    if (pnt7 == true) {
+      pont ++;
+      ptn7 = false;
+    }
     for (let contador = 1; contador <= 7; contador++) {
       var leitur = document.querySelector(`#leitura${contador}`)
       leitur.style.display = "block";
     }
   }
   if (res8 == 'reescrever') {
-    pont ++;
+    if (pnt8 == true) {
+      pont ++;
+      ptn8 = false;
+    }
     for (let contador = 1; contador <= 10; contador++) {
       var reesc = document.querySelector(`#reescrever${contador}`)
       reesc.style.display = "block";
     }
   }
   if (res9 == 'nao volatil' || res9 == "não volátil") {
-    pont ++;
+    if (pnt9 == true) {
+      pont ++;
+      ptn9 = false;
+    }
     for (let contador = 1; contador <= 10; contador++) {
       var naovol = document.querySelector(`#nao_volatil${contador}`)
       naovol.style.display = "block";
     }
   }
   if (res10 == 'convencional') {
-    pont ++;
+    if (pnt10 == true) {
+      pont ++;
+      pnt10 = false;
+    }
     for (let contador = 1; contador <= 12; contador++) {
       var convenc = document.querySelector(`#convencional${contador}`)
       convenc.style.display = "block";
     }
   }
   if (res11 == 'constante') {
-    pont ++;
+    if (pnt11 == true) {
+      pont ++;
+      pnt11 = false;
+    }
     for (let contador = 1; contador <= 9; contador++) {
       var contant = document.querySelector(`#constante${contador}`)
       contant.style.display = "block";
     }
   }
   if (res12 == 'armazenar') {
-    pont ++;
+    if (pnt12 == true) {
+      pont ++;
+      pnt12 = false;
+    }
     for (let contador = 1; contador <= 9; contador++) {
       var armazena = document.querySelector(`#armazenar${contador}`)
       armazena.style.display = "block";
     }
   }
   if (res13 == 'auxiliar') {
-    pont ++;
+    if (pnt13 == true) {
+      pont ++;
+      pnt13 = false;
+    }
     for (let contador = 1; contador <= 8; contador++) {
       var auxi = document.querySelector(`#auxiliar${contador}`)
       auxi.style.display = "block";
@@ -115,7 +154,10 @@ function confirmar() {
     }
   }
   if (res14 == 'acesso direto') {
-    pont ++;
+    if (pnt14 == true) {
+      pont ++;
+      pnt14 = false;
+    }
     for (let contador = 1; contador <= 12; contador++) {
       var acess = document.querySelector(`#acesso_direto${contador}`)
       acess.style.display = "block";
@@ -123,7 +165,10 @@ function confirmar() {
     }
   }
   if (res15 == 'intermediador') {
-    pont ++;
+    if (pnt15 == true) {
+      pont ++;
+      pnt15 = false;
+    }
     for (let contador = 1; contador <= 13; contador++) {
       var interm = document.querySelector(`#intermediador${contador}`)
       interm.style.display = "block";
@@ -131,7 +176,10 @@ function confirmar() {
     }
   }
   if (res16 == 'endereço') {
-    pont ++;
+    if (pnt16 == true) {
+      pont ++;
+      pnt16 = false;
+    }
     for (let contador = 1; contador <= 8; contador++) {
       var ende = document.querySelector(`#endereco${contador}`)
       ende.style.display = "block";
@@ -139,7 +187,10 @@ function confirmar() {
     }
   }
   if (res17 == 'transporte') {
-    pont ++;
+    if (pnt17 == true) {
+      pont ++;
+      pnt17 = false;
+    }
     for (let contador = 1; contador <= 9; contador++) {
       var transp = document.querySelector(`#transporte${contador}`)
       transp.style.display = "block";
@@ -147,7 +198,10 @@ function confirmar() {
     }
   }
   if (res18 == 'quatro') {
-    pont ++;
+    if (pnt18 == true) {
+      pont ++;
+      pnt18 = false;
+    }
     for (let contador = 1; contador <= 6; contador++) {
       var quat = document.querySelector(`#quatro${contador}`)
       quat.style.display = "block";
@@ -155,7 +209,10 @@ function confirmar() {
     }
   }
   if (res19 == 'oito') {
-    pont ++;
+    if (pnt19 == true) {
+      pont ++;
+      pnt19 = false;
+    }
     for (let contador = 1; contador <= 4; contador++) {
       var oito = document.querySelector(`#oito${contador}`)
       oito.style.display = "block";
@@ -163,7 +220,10 @@ function confirmar() {
     }
   }
   if (res20 == 'hyper thread') {
-    pont ++;
+    if (pnt20 == true) {
+      pont ++;
+      pnt20 = false;
+    }
     for (let contador = 1; contador <= 11; contador++) {
       var hype = document.querySelector(`#hyper_thread${contador}`)
       hype.style.display = "block";
@@ -171,15 +231,19 @@ function confirmar() {
     }
   }
   if (res21 == 'multi nucleo' || res21 == 'multi núcleo') {
-    pont ++;
+    if (pnt21 == true) {
+      pont ++;
+      pnt21 = false;
+    }
     for (let contador = 1; contador <= 11; contador++) {
       var multin = document.querySelector(`#multi_nucleo${contador}`)
       multin.style.display = "block";
-
     }
   }
 }
 
 function encerrar(){
     alert(`✨Sua pontuação final foi de ${pont}✨!!!`)
+    const btn = document.querySelector("#encerrar")
+    location.reload()
 }

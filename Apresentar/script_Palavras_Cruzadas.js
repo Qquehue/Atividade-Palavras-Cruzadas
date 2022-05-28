@@ -244,6 +244,5 @@ function confirmar() {
 
 function encerrar(){
     alert(`✨Sua pontuação final foi de ${pont}✨!!!`)
-    const btn = document.querySelector("#encerrar")
     location.reload()
 }
